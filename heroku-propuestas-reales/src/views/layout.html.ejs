@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Propuestas Reales</title>
+    <% if (env !== 'development') { %>
+      <link rel="stylesheet" href="<%= assetPath('app.css') %>">
+    <% } %>
+  </head>
+
+  <body>
+    <header>
+    </header>
+    <%- body %>
+    <script src="<%= assetPath('app.js') %>"></script>
+  </body>
+
+</html>

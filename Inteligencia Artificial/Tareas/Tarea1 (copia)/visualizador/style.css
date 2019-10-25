@@ -1,0 +1,33 @@
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+
+td {
+    width: 40px; height: 40px;
+}
+
+.verde {
+    background-color: green;
+}
+
+.azul {
+    background-color: cyan;
+}
+
+.morado {
+    background-color: violet;
+}
+
+.blanco {
+    background-color: gray;
+}
+
+.amarillo {
+    background-color: yellow;
+}
